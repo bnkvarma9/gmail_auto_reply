@@ -1,0 +1,52 @@
+# Privacy Policy for Quick Gmail Reply
+
+Effective Date: [Insert Date, e.g., April 28, 2025]
+
+## Introduction
+Quick Gmail Reply ("the Extension") is a browser extension developed by [Your Name or Company] to automate email replies in Gmail by filling reply boxes with user-defined templates and optionally attaching a resume file. This Privacy Policy explains how the Extension handles data. We are committed to protecting your privacy and do not collect, store, or share personal information.
+
+## Data Handling
+The Extension operates entirely within your browser and does not transmit data to external servers. Below is how the Extension interacts with data:
+
+- **Local Storage**: The Extension stores the following user-provided settings locally in your browser using `chrome.storage.local`:
+  - Auto-reply mode status (enabled/disabled)
+  - Email reply template
+  - Resume file data (temporarily, for attachment purposes)
+  - Resume file name
+  These settings are stored on your device and are not sent to any external servers.
+
+- **Gmail Interaction**: The Extension accesses Gmail’s webpage content to:
+  - Detect email threads and reply boxes.
+  - Extract recipient names from email headers for personalizing replies.
+  - Attach resume files to email drafts.
+  This data is processed in real-time within your browser and is not stored or transmitted.
+
+- **Resume Files**: If you choose to attach a resume, the Extension temporarily processes the file to facilitate attachment in Gmail. The resume data is not stored after the attachment process or shared with any third parties.
+
+## No Data Collection or Sharing
+The Extension does not:
+- Collect personal information (e.g., names, email addresses, or email content) for storage or transmission.
+- Share any data with third parties.
+- Use analytics or tracking technologies.
+- Connect to external servers.
+
+## Permissions
+The Extension requires the following permissions to function:
+- **Storage**: To save your settings (e.g., email template, auto-reply mode) locally.
+- **ActiveTab**: To interact with Gmail’s webpage content.
+- **Scripting**: To execute scripts that automate replies and attachments in Gmail.
+These permissions are used solely to provide the Extension’s functionality and do not involve data collection or transmission.
+
+## User Responsibilities
+You are responsible for:
+- Ensuring the content of your email templates and attached resumes complies with applicable laws and Gmail’s terms of service.
+- Reviewing this Privacy Policy before using the Extension.
+
+## Changes to This Privacy Policy
+We may update this Privacy Policy to reflect changes in the Extension’s functionality or legal requirements. The latest version will be available at [link to your policy, e.g., a GitHub page or website]. The effective date at the top will indicate the last update.
+
+## Contact Us
+If you have questions about this Privacy Policy, contact us at:
+- Email: nikhilvarma982@gmail.com
+
+Thank you for using Quick Gmail Reply!
